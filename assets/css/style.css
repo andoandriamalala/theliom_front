@@ -26,6 +26,7 @@
 body {
   font-family: "Open Sans", sans-serif;
   color: #585a61;
+  overflow-x: hidden;
 }
 
 a {
@@ -234,7 +235,7 @@ h6 {
 }
 
 .navbar .active {
-  color: #5777ba;
+  color: #f7c100;
 }
 
 .navbar .active:focus {
@@ -373,7 +374,7 @@ h6 {
 }
 
 .navbar-mobile ul {
-  display: block;
+  display: block !important;
   position: absolute;
   top: 55px;
   right: 15px;
@@ -618,10 +619,6 @@ section {
   font-size: 15px;
   color: #979aa1;
   margin-left: 60px;
-}
-
-.details .content + .content {
-  margin-top: 100px;
 }
 
 .details .content h3 {
@@ -1189,7 +1186,7 @@ section {
 }
 
 #footer .footer-top .footer-links ul li {
-  padding: 10px 0;
+  padding: 5px 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1248,6 +1245,58 @@ section {
   text-align: center;
   font-size: 13px;
   color: #47536e;
+}
+
+.logo_footer {
+  max-width: 150px;
+}
+
+h1#text {
+  overflow: hidden;
+  margin: 0 auto;
+  display: inline-block;
+  font-weight: normal;
+}
+
+h1#text::after {
+  content: '';
+  display: inline-block;
+  background-color: white;
+  margin-left: 2px;
+  height: 4px;
+  width: 15px;
+  -webkit-animation: cursor 0.4s infinite;
+          animation: cursor 0.4s infinite;
+}
+
+/* The typewriter cursor effect */
+@-webkit-keyframes cursor {
+  0% {
+    opacity: 1;
+  }
+  49% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes cursor {
+  0% {
+    opacity: 1;
+  }
+  49% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
 }
 
 @media screen and (max-width: 768px) {

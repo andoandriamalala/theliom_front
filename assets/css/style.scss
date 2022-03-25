@@ -61,6 +61,7 @@ $border-top-color_1: #eee;
 body {
 	font-family: $open;
 	color: $color_1;
+	overflow-x: hidden;
 }
 a {
 	color: $blue;
@@ -219,7 +220,7 @@ h6 {
 		}
 	}
 	.active {
-		color: $blue;
+		color: $yellow;
 		&:focus {
 			color: $blue;
 		}
@@ -347,7 +348,7 @@ h6 {
 		right: 15px;
 	}
 	ul {
-		display: block;
+		display: block !important;
 		position: absolute;
 		top: 55px;
 		right: 15px;
@@ -584,11 +585,11 @@ section {
 }
 .details {
 	.content {
-		+ {
-			.content {
-				margin-top: 100px;
-			}
-		}
+		// + {
+		// 	.content {
+		// 		margin-top: 100px;
+		// 	}
+		// }
 		h3 {
 			font-weight: 700;
 			font-size: 32px;
@@ -1068,7 +1069,7 @@ section {
 					line-height: 1;
 				}
 				li {
-					padding: 10px 0;
+					padding: 5px 0;
 					display: flex;
 					align-items: center;
 					&:first-child {
@@ -1121,6 +1122,35 @@ section {
 		color: $color_5;
 	}
 }
+
+.logo_footer {
+	max-width: 150px;
+}
+
+h1#text {
+	overflow: hidden;
+	margin: 0 auto;
+	display: inline-block;
+	font-weight: normal;
+	&::after  {
+	  content: '';
+	  display: inline-block;
+	  background-color: white;
+	  margin-left: 2px;
+	  height: 4px;
+	  width: 15px;
+	  animation: cursor 0.4s infinite;
+	}
+}
+
+/* The typewriter cursor effect */
+@keyframes cursor {
+	0% { opacity: 1; }
+	49% { opacity: 1; }
+	50% { opacity: 0; }
+	100% { opacity: 0; }
+}
+
 @media screen and (max-width: 768px) {
 	[data-aos-delay] {
 		transition-delay: 0 !important;
