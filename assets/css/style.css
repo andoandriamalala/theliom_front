@@ -341,7 +341,7 @@ h6 {
 }
 
 .mobile-nav-toggle {
-  color: #47536e;
+  color: #FFF;
   font-size: 28px;
   cursor: pointer;
   display: none;
@@ -475,6 +475,10 @@ h6 {
 
 #header.header-scrolled .navbar .getstarted {
   color: #FFF;
+}
+
+#header.header-scrolled .mobile-nav-toggle {
+  color: #000;
 }
 
 #hero {
@@ -1079,6 +1083,10 @@ section {
   background: #eff2f8;
 }
 
+#footer .container {
+  max-width: 750px;
+}
+
 #footer .footer-newsletter {
   padding: 50px 0;
   background: #eff2f8;
@@ -1218,12 +1226,12 @@ section {
   background: #5777ba;
   color: #FFF;
   line-height: 1;
-  padding: 8px 0;
+  padding: 3.5px 0;
   margin-right: 4px;
   border-radius: 50%;
   text-align: center;
-  width: 36px;
-  height: 36px;
+  width: 25px;
+  height: 25px;
   -webkit-transition: 0.3s;
   transition: 0.3s;
 }

@@ -322,7 +322,7 @@ h6 {
 
 
 .mobile-nav-toggle {
-	color: $color_5;
+	color: $white;
 	font-size: 28px;
 	cursor: pointer;
 	display: none;
@@ -443,6 +443,9 @@ h6 {
 		.getstarted {
 			color: $white;
 		}
+	}
+	.mobile-nav-toggle {
+		color: $black;
 	}
 }
 
@@ -982,6 +985,9 @@ section {
 	color: $color_5;
 	font-size: 14px;
 	background: #eff2f8;
+	.container {
+		max-width: 750px;
+	}
 	.footer-newsletter {
 		padding: 50px 0;
 		background: #eff2f8;
@@ -1095,12 +1101,12 @@ section {
 				background: #5777ba;
 				color: $white;
 				line-height: 1;
-				padding: 8px 0;
+				padding: 3.5px 0;
 				margin-right: 4px;
 				border-radius: 50%;
 				text-align: center;
-				width: 36px;
-				height: 36px;
+				width: 25px;
+				height: 25px;
 				transition: 0.3s;
 				&:hover {
 					background: #27282c;
