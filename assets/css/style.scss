@@ -470,6 +470,11 @@ h6 {
 	// 	background-color: $background-color_2;
 	// 	transform: skewY(135deg);
 	// }
+	img.logo {
+		max-width: 270px;
+		display: block;
+		margin: 0 auto;
+	}
 	h1 {
 		margin: 0 0 10px 0;
 		font-size: 2rem;
@@ -511,6 +516,17 @@ h6 {
 		}
 	}
 }
+
+// .header_content {
+//     &::before {
+//       content: '';
+//       height: 4px;
+//       width: 3.5rem;
+//       display: block;
+//       background: $gradient;
+//     }
+// }
+
 section {
 	padding: 60px 0;
 	overflow: hidden;
