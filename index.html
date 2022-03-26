@@ -46,11 +46,11 @@
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a class="nav-link scrollto active" href="#hero">Accueil</a></li>
-          <li><a class="nav-link scrollto" href="#features">Services</a></li>
-          <li><a class="nav-link scrollto" href="#gallery">Applications mobiles</a></li>
-          <li><a class="nav-link scrollto" href="#pricing">Nos compétences</a></li>
-          <li><a class="nav-link scrollto" href="#faq">A propos</a></li>
+          <li><a class="nav-link scrollto active" href="index.html#home">Accueil</a></li>
+          <li><a class="nav-link scrollto" href="index.html#expertises">Services</a></li>
+          <li><a class="nav-link scrollto" href="index.html#mobile">Applications mobiles</a></li>
+          <li><a class="nav-link scrollto" href="index.html#competences">Nos compétences</a></li>
+          <li><a class="nav-link scrollto" href="a_propos.html">A propos</a></li>
           <!-- <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
               <li><a href="#">Drop Down 1</a></li>
@@ -69,7 +69,7 @@
             </ul>
           </li> -->
           <!-- <li><a class="nav-link scrollto" href="#contact">Contact</a></li> -->
-          <li><a class="getstarted scrollto" href="#features">Nous contacter</a></li>
+          <li><a class="getstarted scrollto" href="contact.html">Nous contacter</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -78,7 +78,7 @@
   </header><!-- End Header -->
 
   <!-- ======= Hero Section ======= -->
-  <section id="hero" class="d-flex align-items-center header_background">
+  <section id="home" class="d-flex align-items-center header_background">
 
     <div class="container">
       <div class="row">
@@ -91,7 +91,7 @@
           <div class="container moove_top">
             <h1 id="text">Nous proposons des solutions innovantes pour accélérer votre transformation digitale</h1>
             <h2 class="header_content">Un projet, un besoin digital ?</h2>
-            <a href="#" class="cta_btn"><i class="bx bxs-message-dots"></i> Contactez-nous</a>
+            <a href="contact.html" class="cta_btn"><i class="bx bxs-message-dots"></i> Contactez-nous</a>
           </div>
         </div>
       </div>
@@ -103,7 +103,7 @@
 
 
     <!-- ======= Details Section ======= -->
-    <section id="details" class="details">
+    <section id="expertises" class="details">
       <div class="container">
 
         <div class="section-title">
@@ -146,7 +146,7 @@
           </div>
         </div>
 
-        <div class="row content align-items-center">
+        <div id="mobile" class="row content align-items-center">
           <div class="col-md-4" data-aos="fade-right">
             <img src="assets/img/details-1.png" class="img-fluid" alt="">
           </div>
@@ -158,12 +158,6 @@
               <li><i class="bi bi-check"></i> Applications natives ou hybrides, BtoC et BtoB couplées d’un système d’information</li>
               <li><i class="bi bi-check"></i> Interfaces ergonomiques et intuitives avec des fonctionnalités mobiles innovantes</li>
             </ul>
-            <p>
-              Qui consequatur temporibus. Enim et corporis sit sunt harum praesentium suscipit ut voluptatem. Et nihil magni debitis consequatur est.
-            </p>
-            <p>
-              Suscipit enim et. Ut optio esse quidem quam reiciendis esse odit excepturi. Vel dolores rerum soluta explicabo vel fugiat eum non.
-            </p>
           </div>
         </div>
 
@@ -525,7 +519,7 @@
 
           <div class="col-lg-3 col-md-6 footer-contact">
             <!-- <h3>Theliom</h3> -->
-            <img class="logo_footer mb-3" src="assets/img/logo_dark.svg" alt="logo">
+            <img class="logo_footer mb-3" src="assets/img/logo_light.svg" alt="logo">
             <p>
               THELIOM développe des sites et des applications web complexes (conseil, développement, refonte, maintenance) pour des PME, des startups, des organisations publiques et des grands groupes privés ambitieux.
             </p>
@@ -575,49 +569,13 @@
 
     <div class="container py-4">
       <div class="copyright">
-        &copy; Copyright <strong><span>Theliom 2022</span></strong>. All Rights Reserved
+        &copy; Copyright <strong><span>Theliom 2022</span></strong>. Tout droits réservé
       </div>
-      <!-- <div class="credits"> -->
-        <!-- All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you purchased the pro version. -->
-        <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/free-bootstrap-app-landing-page-template/ -->
-        <!-- Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-      </div> -->
     </div>
   </footer><!-- End Footer -->
 
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
-  
-
-  <script>
-    document.addEventListener( 'DOMContentLoaded', function () {
-      new Splide( '#image-slider', {
-        perPage    : 5,
-        type: "loop",
-        autoplay : true,
-        interval: 5000,
-        width: 500,
-        gap: 50,
-        // arrows: false,
-        breakpoints: {
-          640: {
-            perPage: 4,
-          },
-        },
-      } ).mount();
-
-      // new Splide( '#valeur-slider', {
-      //   perPage    : 1,
-      //   type: "loop",
-      //   autoplay : true,
-      //   interval: 5000,
-      //   width: 800,
-      //   gap: 50,
-      // } ).mount();
-    } );
-  </script>
 
   <!-- Vendor JS Files -->
   <!-- <script src="assets/js/splide.min.js"></script> -->

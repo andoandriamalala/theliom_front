@@ -481,7 +481,7 @@ h6 {
   color: #000;
 }
 
-#hero {
+#home {
   width: 100%;
   position: relative;
   overflow: hidden;
@@ -493,13 +493,13 @@ h6 {
   background-repeat: no-repeat;
 }
 
-#hero img.logo {
+#home img.logo {
   max-width: 270px;
   display: block;
   margin: 0 auto;
 }
 
-#hero h1 {
+#home h1 {
   margin: 0 0 10px 0;
   font-size: 2rem;
   font-weight: 500;
@@ -508,14 +508,14 @@ h6 {
   font-family: "Poppins", sans-serif;
 }
 
-#hero h2 {
+#home h2 {
   color: #FFF;
   margin-top: 2rem;
   margin-bottom: 1rem;
   font-size: 20px;
 }
 
-#hero .cta_btn {
+#home .cta_btn {
   font-family: "Raleway", sans-serif;
   font-weight: 500;
   font-size: 15px;
@@ -529,18 +529,18 @@ h6 {
   position: relative;
 }
 
-#hero .cta_btn:hover {
+#home .cta_btn:hover {
   background: #f7c100;
 }
 
-#hero .cta_btn i {
+#home .cta_btn i {
   font-size: 20px;
   position: absolute;
   left: 18px;
   top: 8.5px;
 }
 
-#hero .cta_btn + .cta_btn {
+#home .cta_btn + .cta_btn {
   margin-left: 20px;
 }
 
@@ -1082,7 +1082,7 @@ section {
 }
 
 #footer {
-  background: #fff;
+  background: #979aa1;
   padding: 0 0 30px 0;
   color: #47536e;
   font-size: 14px;
@@ -1093,64 +1093,9 @@ section {
   max-width: 750px;
 }
 
-#footer .footer-newsletter {
-  padding: 50px 0;
-  background: #eff2f8;
-  text-align: center;
-  font-size: 15px;
-}
-
-#footer .footer-newsletter h4 {
-  font-size: 24px;
-  margin: 0 0 20px 0;
-  padding: 0;
-  line-height: 1;
-  font-weight: 600;
-  color: #47536e;
-}
-
-#footer .footer-newsletter form {
-  margin-top: 30px;
-  background: #fff;
-  padding: 6px 10px;
-  position: relative;
-  border-radius: 50px;
-  -webkit-box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
-          box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
-  text-align: left;
-}
-
-#footer .footer-newsletter form input[type=email] {
-  border: 0;
-  padding: 4px 8px;
-  width: calc(100% - 100px);
-}
-
-#footer .footer-newsletter form input[type=submit] {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  border: 0;
-  background: none;
-  font-size: 16px;
-  padding: 0 20px;
-  background: #5777ba;
-  color: #FFF;
-  -webkit-transition: 0.3s;
-  transition: 0.3s;
-  border-radius: 50px;
-  -webkit-box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
-          box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
-}
-
-#footer .footer-newsletter form input[type=submit]:hover {
-  background: #415f9d;
-}
-
 #footer .footer-top {
   padding: 60px 0 30px 0;
-  background: #fff;
+  background: #585a61;
 }
 
 #footer .footer-top .footer-contact {
@@ -1171,13 +1116,13 @@ section {
   line-height: 24px;
   margin-bottom: 0;
   font-family: "Raleway", sans-serif;
-  color: #8a8c95;
+  color: #ccc;
 }
 
 #footer .footer-top h4 {
   font-size: 16px;
   font-weight: bold;
-  color: #47536e;
+  color: #FFF;
   position: relative;
   padding-bottom: 12px;
 }
@@ -1207,6 +1152,7 @@ section {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  color: #ccc;
 }
 
 #footer .footer-top .footer-links ul li:first-child {
@@ -1214,7 +1160,7 @@ section {
 }
 
 #footer .footer-top .footer-links ul a {
-  color: #8a8c95;
+  color: #ccc;
   -webkit-transition: 0.3s;
   transition: 0.3s;
   display: inline-block;
@@ -1223,7 +1169,7 @@ section {
 
 #footer .footer-top .footer-links ul a:hover {
   text-decoration: none;
-  color: #5777ba;
+  color: #8a8c95;
 }
 
 #footer .footer-top .social-links a {
@@ -1259,6 +1205,14 @@ section {
   text-align: center;
   font-size: 13px;
   color: #47536e;
+}
+
+.banner {
+  min-height: 300px;
+  background-image: url(../img/workers.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .logo_footer {
@@ -1336,16 +1290,16 @@ h1#text::after {
   .navbar ul {
     display: none;
   }
-  #hero {
+  #home {
     text-align: center;
   }
-  #hero .cta_btn + .cta_btn {
+  #home .cta_btn + .cta_btn {
     margin: 0 10px;
   }
-  #hero .hero-img {
+  #home .hero-img {
     text-align: center;
   }
-  #hero .hero-img img {
+  #home .hero-img img {
     width: 60%;
   }
   .features .image {
@@ -1357,16 +1311,16 @@ h1#text::after {
 }
 
 @media (max-width: 768px) {
-  #hero h1 {
+  #home h1 {
     font-size: 28px;
     line-height: 36px;
   }
-  #hero h2 {
+  #home h2 {
     font-size: 18px;
     line-height: 24px;
     margin-bottom: 30px;
   }
-  #hero .hero-img img {
+  #home .hero-img img {
     width: 70%;
   }
   .breadcrumbs .d-flex {
@@ -1394,7 +1348,7 @@ h1#text::after {
 }
 
 @media (max-width: 575px) {
-  #hero .hero-img img {
+  #home .hero-img img {
     width: 80%;
   }
 }
