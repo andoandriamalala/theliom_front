@@ -236,54 +236,54 @@
 
 
 // parallax animation
-var lFollowX = 0,
-    lFollowY = 0,
-    x = 0,
-    y = 0,
-    friction = 1 / 30;
+// var lFollowX = 0,
+//     lFollowY = 0,
+//     x = 0,
+//     y = 0,
+//     friction = 1 / 30;
 
-function moveBackground() {
-  x += (lFollowX - x) * friction;
-  y += (lFollowY - y) * friction;
+// function moveBackground() {
+//   x += (lFollowX - x) * friction;
+//   y += (lFollowY - y) * friction;
   
-  translate = 'translate(' + x + 'px, ' + y + 'px) scale(1.1)';
+//   translate = 'translate(' + x + 'px, ' + y + 'px) scale(1.1)';
 
-  $('.header_background, .moove_back').css({
-    '-webit-transform': translate,
-    '-moz-transform': translate,
-    'transform': translate
-  });
+//   $('.header_background, .moove_back').css({
+//     '-webit-transform': translate,
+//     '-moz-transform': translate,
+//     'transform': translate
+//   });
 
-  window.requestAnimationFrame(moveBackground);
-}
+//   window.requestAnimationFrame(moveBackground);
+// }
 
-function moveImg() {
-  x += (lFollowX - x) * 1 / 60;
-  y += (lFollowY - y) * 1 / 60;
+// function moveImg() {
+//   x += (lFollowX - x) * 1 / 60;
+//   y += (lFollowY - y) * 1 / 60;
   
-  translate = 'translate(' + (x * -1)  + 'px, ' + (y * -1) + 'px)';
+//   translate = 'translate(' + (x * -1)  + 'px, ' + (y * -1) + 'px)';
 
 
-  $('#animated_logo, .moove_top').css({
-    '-webit-transform': translate,
-    '-moz-transform': translate,
-    'transform': translate
-  });
+//   $('#animated_logo, .moove_top').css({
+//     '-webit-transform': translate,
+//     '-moz-transform': translate,
+//     'transform': translate
+//   });
 
-  window.requestAnimationFrame(moveImg);
-}
+//   window.requestAnimationFrame(moveImg);
+// }
 
-$(window).on('mousemove click', function(e) {
+// $(window).on('mousemove click', function(e) {
 
-  var lMouseX = Math.max(-100, Math.min(100, $(window).width() / 2 - e.clientX));
-  var lMouseY = Math.max(-100, Math.min(100, $(window).height() / 2 - e.clientY));
-  lFollowX = (20 * lMouseX) / 100; // 100 : 12 = lMouxeX : lFollow
-  lFollowY = (10 * lMouseY) / 100;
+//   var lMouseX = Math.max(-100, Math.min(100, $(window).width() / 2 - e.clientX));
+//   var lMouseY = Math.max(-100, Math.min(100, $(window).height() / 2 - e.clientY));
+//   lFollowX = (20 * lMouseX) / 100; // 100 : 12 = lMouxeX : lFollow
+//   lFollowY = (10 * lMouseY) / 100;
 
-});
+// });
 
-moveBackground();
-moveImg();
+// moveBackground();
+// moveImg();
 
 // typeritter 
 var i = 0;
