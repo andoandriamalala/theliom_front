@@ -633,6 +633,10 @@ section {
   margin-left: 60px;
 }
 
+.content p {
+  text-align: justify;
+}
+
 .details .content h3 {
   font-weight: 700;
   font-size: 20px;

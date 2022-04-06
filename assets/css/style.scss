@@ -604,6 +604,12 @@ section {
 		}
 	}
 }
+
+.content {
+	p {
+		text-align: justify;
+	}
+}
 .details {
 	.content {
 		// + {
@@ -1358,3 +1364,9 @@ h1#text {
 		}
 	}
 }
+
+// .gallery-slider {
+// 	.swiper-pagination {
+// 		display: none;
+// 	}
+// }
