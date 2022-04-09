@@ -27,6 +27,7 @@ body {
   font-family: "Open Sans", sans-serif;
   color: #585a61;
   overflow-x: hidden;
+  color: #47536e;
 }
 
 a {
@@ -502,9 +503,9 @@ h6 {
 
 #home h1 {
   margin: 0 0 10px 0;
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: 500;
-  line-height: 35px;
+  line-height: 26px;
   color: #FFF;
   font-family: "Poppins", sans-serif;
 }
@@ -564,13 +565,14 @@ section {
   font-weight: 400;
   margin-bottom: 20px;
   padding-bottom: 0;
-  color: #000;
+  color: #47536e;
   font-family: "Poppins", sans-serif;
   text-transform: uppercase;
 }
 
 .section-title p {
-  margin-bottom: 0;
+  max-width: 700px;
+  margin: 0 auto;
 }
 
 .breadcrumbs {
@@ -655,7 +657,7 @@ section {
 .details .content ul i {
   font-size: 24px;
   padding-right: 2px;
-  color: #000;
+  color: #47536e;
   line-height: 0;
 }
 
@@ -682,14 +684,20 @@ section {
   height: 12px;
   background-color: #FFF;
   opacity: 1;
-  border: 1px solid #000;
+  border: 1px solid #47536e;
 }
 
 .gallery .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #000;
+  background-color: #47536e;
 }
 
 .gallery .swiper-slide-active {
+  text-align: center;
+}
+
+.gallery p {
+  max-width: 700px;
+  margin: 0 auto;
   text-align: center;
 }
 
@@ -725,12 +733,12 @@ section {
   font-size: 18px;
   font-weight: bold;
   margin: 10px 0 5px 0;
-  color: #000;
+  color: #47536e;
 }
 
 .testimonials .testimonial-item h4 {
   font-size: 14px;
-  color: #999;
+  color: #47536e;
   margin: 0;
 }
 
@@ -767,11 +775,11 @@ section {
   height: 12px;
   background-color: #FFF;
   opacity: 1;
-  border: 1px solid #000;
+  border: 1px solid #47536e;
 }
 
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #000;
+  background-color: #47536e;
 }
 
 .pricing .row {
@@ -1086,6 +1094,11 @@ section {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.gallery-slider {
+  -webkit-filter: grayscale(1);
+          filter: grayscale(1);
 }
 
 #footer {
