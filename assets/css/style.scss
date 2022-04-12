@@ -148,24 +148,24 @@ h6 {
 	background: transparent;
 	.logo {
 		.light {
-			display: block;
+			display: none;
 		}
 		.dark {
-			display: none;
+			display: block;
 		}
 	}
 }
 #header.header-scrolled {
 	background: rgba(255, 255, 255, 0.95);
 	box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
-	.logo {
-		.light {
-			display: none;
-		}
-		.dark {
-			display: block;
-		}
-	}
+	// .logo {
+	// 	.light {
+	// 		display: none;
+	// 	}
+	// 	.dark {
+	// 		display: block;
+	// 	}
+	// }
 }
 .navbar {
 	padding: 0;
@@ -180,7 +180,7 @@ h6 {
 		position: relative;
 		&:hover {
 			>a {
-				color: $gray_light;
+				color: $color_8;
 			}
 		}
 	}
@@ -191,7 +191,7 @@ h6 {
 		padding: 10px 0 10px 30px;
 		font-family: $raleway;
 		font-size: 15px;
-		color: $white;
+		color: $color_1;
 		white-space: nowrap;
 		transition: 0.3s;
 		&:focus {
@@ -456,7 +456,8 @@ h6 {
 	padding: 140px 0 100px 0;
 	margin-bottom: 3rem;
 	min-height: 100vh;
-	background-image: url(../img/network.webp);
+	// background-image: url(../img/network.webp);
+	background: url(../img/world.webp);
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -481,11 +482,11 @@ h6 {
 		font-size: 1.5rem;
 		font-weight: 500;
 		line-height: 26px;
-		color: $white;
+		color: $blue;
 		font-family: $poppins;
 	}
 	h2 {
-		color: $white;
+		color: $blue;
 		margin-top: 2rem;
 		margin-bottom: 1rem;
 		font-size: 20px;

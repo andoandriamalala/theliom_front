@@ -136,25 +136,17 @@ h6 {
 }
 
 #header.header-transparent .logo .light {
-  display: block;
+  display: none;
 }
 
 #header.header-transparent .logo .dark {
-  display: none;
+  display: block;
 }
 
 #header.header-scrolled {
   background: rgba(255, 255, 255, 0.95);
   -webkit-box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
           box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
-}
-
-#header.header-scrolled .logo .light {
-  display: none;
-}
-
-#header.header-scrolled .logo .dark {
-  display: block;
 }
 
 .navbar {
@@ -178,7 +170,7 @@ h6 {
 }
 
 .navbar li:hover > a {
-  color: #f9f9f9;
+  color: #979aa1;
 }
 
 .navbar a {
@@ -194,7 +186,7 @@ h6 {
   padding: 10px 0 10px 30px;
   font-family: "Raleway", sans-serif;
   font-size: 15px;
-  color: #FFF;
+  color: #585a61;
   white-space: nowrap;
   -webkit-transition: 0.3s;
   transition: 0.3s;
@@ -489,7 +481,7 @@ h6 {
   padding: 140px 0 100px 0;
   margin-bottom: 3rem;
   min-height: 100vh;
-  background-image: url(../img/network.webp);
+  background: url(../img/world.webp);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -506,12 +498,12 @@ h6 {
   font-size: 1.5rem;
   font-weight: 500;
   line-height: 26px;
-  color: #FFF;
+  color: #1f7e97;
   font-family: "Poppins", sans-serif;
 }
 
 #home h2 {
-  color: #FFF;
+  color: #1f7e97;
   margin-top: 2rem;
   margin-bottom: 1rem;
   font-size: 20px;
