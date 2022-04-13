@@ -481,7 +481,7 @@ h6 {
   padding: 140px 0 100px 0;
   margin-bottom: 3rem;
   min-height: 100vh;
-  background: url(../img/world.webp);
+  background: url(../img/wave.webp);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -498,12 +498,12 @@ h6 {
   font-size: 1.5rem;
   font-weight: 500;
   line-height: 26px;
-  color: #1f7e97;
+  color: #FFF;
   font-family: "Poppins", sans-serif;
 }
 
 #home h2 {
-  color: #1f7e97;
+  color: #FFF;
   margin-top: 2rem;
   margin-bottom: 1rem;
   font-size: 20px;
