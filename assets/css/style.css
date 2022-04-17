@@ -544,7 +544,7 @@ section {
 }
 
 .section-bg {
-  background-color: #ededed;
+  background-color: #eff4fb;
 }
 
 .section-title {
@@ -726,12 +726,14 @@ section {
   font-weight: bold;
   margin: 10px 0 5px 0;
   color: #47536e;
+  text-transform: uppercase;
 }
 
 .testimonials .testimonial-item h4 {
   font-size: 14px;
-  color: #47536e;
+  color: #89ffe2;
   margin: 0;
+  text-align: right;
 }
 
 .testimonials .testimonial-item .quote-icon-left {
@@ -1091,6 +1093,7 @@ section {
 .gallery-slider {
   -webkit-filter: grayscale(1);
           filter: grayscale(1);
+  max-width: 700px;
 }
 
 #footer {

@@ -178,7 +178,7 @@
         spaceBetween: 30
       },
       1200: {
-        slidesPerView: 11,
+        slidesPerView: 9,
         spaceBetween: 30
       }
     }

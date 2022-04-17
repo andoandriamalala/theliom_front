@@ -1,5 +1,7 @@
 $color_1: #585a61;
 $blue: #1f7e97;
+$light_blue: #eff4fb;
+$green: rgb(137, 255, 226);
 $white: #fff;
 $color_5: #47536e;
 $color_6: #515f7d;
@@ -534,7 +536,7 @@ section {
 	overflow: hidden;
 }
 .section-bg {
-	background-color: $background-color_3;
+	background-color: $light_blue;
 }
 .section-title {
 	text-align: center;
@@ -701,11 +703,13 @@ section {
 			font-weight: bold;
 			margin: 10px 0 5px 0;
 			color: $color_5;
+			text-transform: uppercase;
 		}
 		h4 {
 			font-size: 14px;
-			color: $color_5;
+			color: $green;
 			margin: 0;
+			text-align: right;
 		}
 		.quote-icon-left {
 			color: $color_11;
@@ -1015,6 +1019,7 @@ section {
 
 .gallery-slider {
 	filter: grayscale(1);
+	max-width: 700px;
 }
 
 #footer {
