@@ -63,7 +63,7 @@ body {
 	font-family: $open;
 	color: $color_1;
 	overflow-x: hidden;
-	color: $color_5;
+	color: $black;
 }
 a {
 	color: $blue;
@@ -488,7 +488,7 @@ h6 {
 		font-family: $poppins;
 	}
 	h2 {
-		color: $white;
+		color: $black;
 		margin-top: 2rem;
 		margin-bottom: 1rem;
 		font-size: 20px;
@@ -707,7 +707,7 @@ section {
 		}
 		h4 {
 			font-size: 14px;
-			color: $green;
+			color: $blue;
 			margin: 0;
 			text-align: right;
 		}
@@ -1190,10 +1190,11 @@ h1#text {
 	margin: 0 auto;
 	display: inline-block;
 	font-weight: normal;
+	color: $black;
 	&::after  {
 	  content: '';
 	  display: inline-block;
-	  background-color: white;
+	  background-color: $black;
 	  margin-left: 2px;
 	  height: 4px;
 	  width: 15px;
@@ -1388,3 +1389,20 @@ h1#text {
 // 		display: none;
 // 	}
 // }
+
+
+ul.partenaire_list {
+	display: flex;
+	column-gap: 1rem;
+	li {
+		&:first-child {
+			padding-top: 5px !important;
+		}
+		i {
+			display: none;
+		}
+		img {
+			max-width: 35px;
+		}
+	}
+}
