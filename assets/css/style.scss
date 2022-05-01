@@ -544,7 +544,7 @@ section {
 	padding-bottom: 30px;
 	h2 {
 		font-size: 32px;
-		font-weight: 400;
+		font-weight: 800;
 		margin-bottom: 20px;
 		padding-bottom: 0;
 		color: $pink;
@@ -1190,7 +1190,7 @@ h1#text {
 	overflow: hidden;
 	margin: 0 auto;
 	display: inline-block;
-	font-weight: normal;
+	font-weight: 600;
 	color: $black;
 	&::after  {
 	  content: '';
