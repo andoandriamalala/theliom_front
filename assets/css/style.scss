@@ -28,6 +28,7 @@ $gray_light: #f9f9f9;
 $black: #000;
 $dark_gray: #767676;
 $gradient: linear-gradient(90deg, rgba(234,98,22,1) 0%, rgba(247,193,0,1) 100%);
+$pink_gradient: linear-gradient(152deg, rgba(238,174,203,0.44908402814250703) 0%, rgba(214,238,255,0.43787954634978987) 37%, rgba(233,188,214,0.1801764651172969) 73%, rgba(255,255,255,1) 100%);
 $transition: all .5s;
 $poppins: 'poppinssemibold';
 $inter: 'interregular';
@@ -461,7 +462,7 @@ h6 {
 	min-height: 100vh;
 	// background-image: url(../img/network.webp);
 	// background: url(../img/technology.webp);
-	background: linear-gradient(152deg, rgba(238,174,203,0.44908402814250703) 0%, rgba(214,238,255,0.43787954634978987) 37%, rgba(233,188,214,0.1801764651172969) 73%, rgba(255,255,255,1) 100%);
+	background: $pink_gradient;
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -538,8 +539,9 @@ section {
 	overflow: hidden;
 }
 .section-bg {
-	background-color: $light_blue;
+	background: $pink_gradient;
 }
+
 .section-title {
 	text-align: center;
 	padding-bottom: 30px;

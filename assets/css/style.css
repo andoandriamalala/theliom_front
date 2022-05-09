@@ -543,7 +543,7 @@ section {
 }
 
 .section-bg {
-  background-color: #eff4fb;
+  background: linear-gradient(152deg, rgba(238, 174, 203, 0.449084) 0%, rgba(214, 238, 255, 0.43788) 37%, rgba(233, 188, 214, 0.180176) 73%, white 100%);
 }
 
 .section-title {
