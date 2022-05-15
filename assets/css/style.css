@@ -1225,7 +1225,10 @@ section {
 
 .banner {
   min-height: 300px;
-  background: linear-gradient(152deg, rgba(238, 174, 203, 0.449084) 0%, rgba(214, 238, 255, 0.43788) 37%, rgba(233, 188, 214, 0.180176) 73%, white 100%);
+  background-image: url(../img/wave.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .logo_footer {
@@ -1238,8 +1241,8 @@ h1#text {
   margin: 0 auto;
   display: inline-block;
   font-weight: 100;
-  line-height: 2.8rem;
-  font-size: 3rem;
+  line-height: 2rem;
+  font-size: 2rem;
   color: #59bfce;
 }
 
@@ -1444,5 +1447,18 @@ ul.partenaire_list li img {
   position: absolute;
   height: auto;
   bottom: -14.5%;
+}
+
+@media screen and (max-width: 768.5px) {
+  .about_lottie {
+    position: relative;
+    aspect-ratio: 3/2;
+    overflow: hidden;
+  }
+  .about_lottie lottie-player {
+    position: absolute;
+    height: auto;
+    bottom: -14.5%;
+  }
 }
 /*# sourceMappingURL=style.css.map */
