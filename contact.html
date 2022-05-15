@@ -24,6 +24,7 @@
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
   <!-- <link href="assets/css/splide.min.css"> -->
+  <script src="assets/js/lottie-player.js"></script>  <!--svg player-->
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
@@ -50,24 +51,6 @@
           <li><a class="nav-link scrollto" href="index.html#expertises">Nos expertises</a></li>
           <li><a class="nav-link scrollto" href="index.html#competences">Nos compétences</a></li>
           <li><a class="nav-link scrollto" href="a_propos.html">A propos</a></li>
-          <!-- <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
-            <ul>
-              <li><a href="#">Drop Down 1</a></li>
-              <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
-                <ul>
-                  <li><a href="#">Deep Drop Down 1</a></li>
-                  <li><a href="#">Deep Drop Down 2</a></li>
-                  <li><a href="#">Deep Drop Down 3</a></li>
-                  <li><a href="#">Deep Drop Down 4</a></li>
-                  <li><a href="#">Deep Drop Down 5</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Drop Down 2</a></li>
-              <li><a href="#">Drop Down 3</a></li>
-              <li><a href="#">Drop Down 4</a></li>
-            </ul>
-          </li> -->
-          <!-- <li><a class="nav-link scrollto" href="#contact">Contact</a></li> -->
           <li><a class="getstarted scrollto" href="contact.html">Nous contacter</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
@@ -75,10 +58,28 @@
 
     </div>
   </header><!-- End Header -->
+  <!-- ======= Hero Section ======= -->
+  <section id="home" class="d-flex align-items-center header_background">
 
-  <!-- ======= banner start ======= -->
-  <section class=" banner d-flex align-items-center">
-  </section>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 d-lg-flex flex-lg-column justify-content-center align-items-stretch pt-5 pt-lg-0 order-2 order-lg-1" data-aos="fade-up">
+          <div class="container">
+            <h1 id="text">Vous avez un concept, une idee? <span>Contactez-nous</span>, pour donner vie a vos projets!</h1>
+          </div>
+        </div>
+        <div class="col-lg-6 d-lg-flex flex-lg-column justify-content-center align-items-stretch pt-5 pt-lg-0 order-2 order-lg-1" data-aos="fade-up">
+          <div class="container moove_top">
+            <div class="lottie_home_header_container mt-3">
+              <lottie-player src="assets\img\animated_img_orange\developer-discussing-different-options.json"  speed="1" loop autoplay></lottie-player>              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section><!-- End Hero -->
+
   <!-- banner end -->
 
   <main id="main">
@@ -88,10 +89,10 @@
     <section id="contact" class="contact">
       <div class="container" data-aos="fade-up">
 
-        <div class="row">
+        <div class="row justify-content-center">
 
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form row" data-aos="fade-up">
-              <div class="col-lg-6 mb-3">
+            <form action="forms/contact.php" method="post" role="form" class="php-email-form col-lg-6" data-aos="fade-up">
+              <div class="mb-3">
                 <div class="form-group">
                   <input placeholder="Votre nom" type="text" name="name" class="form-control" id="name" required>
                 </div>
@@ -101,18 +102,17 @@
                 <div class="form-group mt-3">
                   <input placeholder="Objet" type="text" class="form-control" name="subject" id="subject" required>
                 </div>
-              </div>
+  
 
-              <div class="col-lg-6">
-                <div class="form-group mb-3">
+                <div class="form-group mb-3 mt-3">
                   <textarea placeholder="Message" class="form-control" name="message" rows="10" required></textarea>
                 </div>
                 <div class="my-3">
                   <div class="loading">Loading</div>
                   <div class="error-message"></div>
-                  <div class="sent-message">Your message has been sent. Thank you!</div>
+                  <div class="sent-message">Votre message a bien été envoyé, merci!</div>
                 </div>
-                <div class="text-center"><button type="submit">Send Message</button></div>
+                <div class="text-center"><button type="submit">Envoyer</button></div>
               </div>
             </form>
 
