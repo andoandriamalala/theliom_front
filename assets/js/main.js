@@ -302,3 +302,12 @@
 // 		}
 
 // typeWriter();
+
+// typewritter
+var typed = new Typed(".type", {
+  strings: ["un concept?,", "une idee?,"],
+  typeSpeed: 70, //Reduce the number to increase the speed
+  backSpeed: 50, //Reduce the number to increase the speed
+  backDelay: 2500, //Reduce the number to increase the speed
+  loop: true
+});
