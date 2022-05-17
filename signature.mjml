@@ -1,0 +1,41 @@
+<mjml margin="0px">
+  <mj-body margin="0px">
+    <mj-section padding="0px">
+      <mj-column padding-left="0px" width="33%">
+        <mj-image padding="0px" align="left" src="https://acipenser.mg/assets/img/signature/logo-acipencer.jpg"></mj-image>
+      </mj-column>
+      <mj-column width="50%">
+        <mj-text font-size="18px" padding-top="5px" color="#4c5751">
+          <strong>Niriharosoa RAHARINORO</strong></mj-text>
+        <mj-text padding-bottom="0px" font-size="14px" padding-top="0px" color="#4c5751">
+          <em>Quality Manager</em>
+        </mj-text>
+        <mj-social icon-size="16px" align="left" padding-bottom="0px" color="#4c5751">
+          <mj-social-element src="https://acipenser.mg/assets/img/signature/phone.png">&nbsp;+261 (0)32 05 420 54</mj-social-element>
+        </mj-social>
+        <mj-social icon-size="16px" align="left" padding-bottom="0px" padding-top="0px" color="#4c5751">
+          <mj-social-element src="https://acipenser.mg/assets/img/signature/mobile.png">&nbsp;+261 (0)32 05 305 92</mj-social-element>
+        </mj-social>
+        <mj-social icon-size="16px" align="left" padding-bottom="0px" padding-top="0px" color="#4c5751">
+          <mj-social-element src="https://acipenser.mg/assets/img/signature/mail.png">&nbsp;harosoa.raharinoro@acipenser.mg</mj-social-element>
+        </mj-social>
+        <mj-social icon-size="16px" align="left" padding-bottom="0px" padding-top="0px" color="#4c5751">
+          <mj-social-element src="https://acipenser.mg/assets/img/signature/web.png">&nbsp;www.acipenser-madagascar.com</mj-social-element>
+        </mj-social>
+        <mj-social icon-size="16px" align="left" padding-bottom="0px" padding-top="0px" color="#4c5751">
+          <mj-social-element src="https://acipenser.mg/assets/img/signature/address.png">&nbsp;Ampasipotsy Manjakandriana<br/>&nbsp;ANTANANARIVO 116 MADAGASCAR</mj-social-element>
+        </mj-social>
+      </mj-column>
+      <mj-column vertical-align="bottom" padding="0px" width="17%">
+        <mj-image padding="0px" align="left" src="https://acipenser.mg/assets/img/signature/logo-afaq-14001_0.png"></mj-image>
+      </mj-column>
+    </mj-section>
+    <mj-section padding-top="15px" padding="0px">
+      <mj-column background-color="#4c5751">
+    <mj-text color="white" align="center">
+          <em>Please remember to protect the environment. Print only if necessary. Recycle the paper.</em>
+        </mj-text>
+    </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
