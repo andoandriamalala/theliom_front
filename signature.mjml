@@ -1,5 +1,5 @@
 <mjml margin="0px">
-  <mj-body margin="0px">
+  <mj-body>
     <mj-section padding="0px">
       <mj-column padding-left="0px" width="33%">
         <mj-image padding="0px" align="left" src="https://acipenser.mg/assets/img/signature/logo-acipencer.jpg"></mj-image>
