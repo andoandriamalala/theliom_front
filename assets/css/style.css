@@ -154,6 +154,10 @@ h6 {
   padding: 0;
 }
 
+.navbar i {
+  color: #223a66;
+}
+
 .navbar ul {
   margin: 0;
   padding: 0;
