@@ -700,19 +700,27 @@ section {
 		overflow: hidden;
 	}
 	.testimonial-item {
-		box-sizing: content-box;
-		padding: 30px 30px 30px 60px;
-		margin: 30px 10px 30px 50px;
-		min-height: 175px;
-		box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.08);
-		position: relative;
-		background: #fff;
-		.testimonial-img {
+		// box-sizing: content-box;
+		// padding: 30px 30px 30px 60px;
+		// margin: 30px 10px 30px 50px;
+		// min-height: 175px;
+		// box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.08);
+		// position: relative;
+		// background: #fff;
+		.author {
 			width: 90px;
-			border-radius: 10px;
+			border-radius: 50%;
 			border: 6px solid #fff;
-			position: absolute;
-			left: -45px;
+			position: relative;
+			overflow: hidden;
+			aspect-ratio: 1/1;
+			left: 50%;
+			transform: translateX(-50%);
+			// position: absolute;
+			// left: -45px;
+			img {
+				max-width: 100%;
+			}
 		}
 		h3 {
 			font-size: 18px;
@@ -720,12 +728,24 @@ section {
 			margin: 10px 0 5px 0;
 			color: $blue;
 			text-transform: uppercase;
+			text-align: center;
 		}
 		h4 {
 			font-size: 14px;
 			color: $blue;
 			margin: 0;
-			text-align: right;
+			text-align: center;
+			position: relative;
+			&::before {
+				content: '';
+				position: absolute;
+				height: 1px;
+				width: 40px;
+				top: -6px;
+				left: 50%;
+				transform: translateX(-50%);
+				background-color: $blue;
+			}
 		}
 		.quote-icon-left {
 			color: $color_11;
@@ -746,6 +766,7 @@ section {
 			font-style: italic;
 			margin: 15px auto 15px auto;
 			letter-spacing: 1px;
+			text-align: center;
 		}
 	}
 	.swiper-pagination {
