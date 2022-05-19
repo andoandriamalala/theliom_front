@@ -1500,3 +1500,24 @@ ul.partenaire_list {
 .typed-cursor {
 	display: none;
 }
+
+
+.container {
+	> .row {
+		justify-content: space-around;
+		> div {
+			width: max-content;
+			&:first-of-type {
+				max-width: 200px;
+			}
+		}
+	}
+}
+
+@media screen and(max-width: 780px) {
+	.container {
+		> .row {
+			flex-direction: column;
+		}
+	}
+}

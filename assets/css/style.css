@@ -1120,12 +1120,8 @@ section {
   background: #eff2f8;
 }
 
-#footer .container {
-  max-width: 750px;
-}
-
 #footer .footer-top {
-  padding: 60px 0 30px 0;
+  padding: 30px 0 0 0;
   background: #585a61;
 }
 
@@ -1498,5 +1494,29 @@ ul.partenaire_list li img {
 
 .typed-cursor {
   display: none;
+}
+
+.container > .row {
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.container > .row > div {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
+
+.container > .row > div:first-of-type {
+  max-width: 200px;
+}
+
+@media screen and (max-width: 780px) {
+  .container > .row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
 }
 /*# sourceMappingURL=style.css.map */
