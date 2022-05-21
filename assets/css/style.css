@@ -1496,23 +1496,23 @@ ul.partenaire_list li img {
   display: none;
 }
 
-.container > .row {
+.footer-top .container > .row {
   -ms-flex-pack: distribute;
       justify-content: space-around;
 }
 
-.container > .row > div {
+.footer-top .container > .row > div {
   width: -webkit-max-content;
   width: -moz-max-content;
   width: max-content;
 }
 
-.container > .row > div:first-of-type {
+.footer-top .container > .row > div:first-of-type {
   max-width: 200px;
 }
 
 @media screen and (max-width: 780px) {
-  .container > .row {
+  .footer-top .container > .row {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
