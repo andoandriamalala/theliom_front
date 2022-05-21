@@ -1524,3 +1524,14 @@ ul.partenaire_list {
 		}
 	}
 }
+
+@media screen and(max-width: 620px) {
+	body {
+		p {
+			font-size: .8rem;
+		}
+		li {
+			font-size: .8rem;
+		}
+	}
+}

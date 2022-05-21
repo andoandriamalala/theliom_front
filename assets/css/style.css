@@ -1519,4 +1519,13 @@ ul.partenaire_list li img {
             flex-direction: column;
   }
 }
+
+@media screen and (max-width: 620px) {
+  body p {
+    font-size: .8rem;
+  }
+  body li {
+    font-size: .8rem;
+  }
+}
 /*# sourceMappingURL=style.css.map */
